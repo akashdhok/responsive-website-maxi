@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#">
+                <h1 style="color: blue;">MAXI</h1>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="hero1">
+        <div id="hero1">
+            <h1 style="font-size: 60px; font-weight: 900;">Contact Us</h1>
+            <p style="font-size: 30px; font-weight: 900;">Aspernatur at enim excepturi</p>
+            <button class="btn1">READ MORE</button>
+        </div>
+    </section>
+    <section class="hero2">
+        <h1 style="text-align: center; font-size: 30px; font-weight: 900;">We are Happy to Assist You</h1>
+        <p style="text-align: center; font-size: 15px; font-weight: 900;">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Aspernatur at <br> enim excepturi facere in non reiciendis.</p>
+    </section>
+    <section class="hero3">
+        <div style="text-align: center; ">
+            <i class="fa-solid fa-map" style="font-size: 30px; color: rgb(129, 129, 253);"></i>
+            <h1>Address</h1>
+            <p>132 Manhatten Str., NewYork, US</p>
+        </div>
+        <div style="text-align: center;">
+            <i class="fa-solid fa-mobile" style="font-size: 30px; color: rgb(129, 129, 253);"></i>
+            <h1>Phone Number</h1>
+            <p>1-234-567-2401</p>
+        </div>
+        <div style="text-align: center;">
+            <i class="fa-solid fa-envelope" style="font-size: 30px; color: rgb(129, 129, 253);"></i>
+            <h1>Email</h1>
+            <p>mail@webthemez.com</p>
+        </div>
+    </section>
+   <section class="let">
+    <h1 style="font-size: 40px; font-weight: 900; text-align: center; margin-top: 60px;">Let Us Know</h1>
+    <p style="text-align: center; font-size: 15px; font-weight: 900;">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Aspernatur at <br> enim excepturi facere in non reiciendis.</p>
+   </section>
+    <section class="hero4">
+        <input type="name" placeholder="Full Name"> <br>
+        <input type="email" name="email" placeholder="Email"> <br>
+        <input type="text"  class="message"> <br>
+        <button>Send Your Message</button>
+    </section>
+    <footer>
+        <div>
+           <center> MAXI <br>
+            &copy; All Right Reserved</center>
+        </div>
+        <div>
+           <center>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+           </center>
+        </div>
+    </footer>
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+        function hideMenu() {
+            navlinks.style.right = "-500px"
+        }
+    </script>
+</body>
+
+</html>

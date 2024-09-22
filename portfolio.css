@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    /* background-color: cornflowerblue; */
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    /* min-height: 100vh; */
+    width: 100%;
+    /* background-image: url("./Screenshot\ 2024-09-01\ 003836.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 3px grey;
+   /* width: 100%; */
+}
+nav img{
+    width: 150px;
+    border-radius: 50%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: all 0.5s;
+}
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+.fa-times{
+        display: none; 
+}
+.fa-bars{
+    display: none;
+}
+@media (max-width:700px) {
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: cadetblue;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -500px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .fa-times{
+        display: block;
+        color: black;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        
+    }
+    .fa-bars{
+        display: block;
+        color: black;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+.hero1 {
+    text-align: center;
+    background-color: cadetblue;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  #hero1 {
+    margin-top: 140px;
+  }
+  .btn1 {
+    width: 100px;
+    height: 30px;
+    background-color: #85a9f1;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .hero2{
+    margin-top: 60px;
+    overflow-x: hidden;
+  } 
+  .hero3{
+    margin-top: 40px;
+    overflow-x: hidden;
+  }
+  .hero3 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    margin-top: 10px;
+  }
+  .hero4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+  .hero4 img{
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  @media (max-width:700px) {
+    .hero4 img{
+        width: 300px;
+        height: 200px;
+    }
+    .hero4{
+        display: block;
+        text-align: center;
+    }
+  }
+  footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: rgb(84, 84, 84);
+    color: white;
+    height: 10vh;
+    align-items: center;
+    /* margin-bottom: 250px; */
+}
+@media (max-width:700px) {
+ footer{
+    display: block;
+ }
+
+}

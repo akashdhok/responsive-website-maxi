@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#">
+                <h1 style="color: blue;">MAXI</h1>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="man">
+        <div class="cont1">
+            <h1>Consulting <br> Services</h1>
+            <p>We Provides End-to-End Solution</p>
+            <button>Schedule Demo</button>
+        </div>
+        <div class="man-img">
+            <img src="./man (1).png" alt="">
+        </div>
+    </section>
+    <section class="services">
+        <center>
+            <h1 style="font-size: 40px; margin-top: 70px; font-weight: 900; overflow-x: hidden;">Our Services</h1>
+        </center>
+        <center>
+            <p style="overflow-x: hidden;">Maxi creative technology company providing <br> key digital services for
+                everyone.</p>
+        </center>
+    </section>
+    <section class="card">
+        <div class="one">
+            <i class="fa-solid fa-sack-dollar"></i>
+            <h1>Finance</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, autem? Officiis fugiat eius magnam
+                dignissimos sequi, nam consequuntur, architecto cupiditate molestias culpa ex voluptates ipsum aliquid
+                adipisci, accusamus ratione consectetur!</p>
+        </div>
+        <div class="one">
+            <i class="fa-solid fa-user" style="margin-top: 50px;"></i>
+            <h1>Corporate</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, autem? Officiis fugiat eius magnam
+                dignissimos sequi, nam consequuntur, architecto cupiditate molestias culpa ex voluptates ipsum aliquid
+                adipisci, accusamus ratione consectetur!</p>
+        </div>
+        <div class="one">
+            <i class="fa-sharp fa-solid fa-earth-americas" style="margin-top: 50px;"></i>
+            <h1>Technology</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, autem? Officiis fugiat eius magnam
+                dignissimos sequi, nam consequuntur, architecto cupiditate molestias culpa ex voluptates ipsum aliquid
+                adipisci, accusamus ratione consectetur!</p>
+        </div>
+    </section>
+    <section class="solution">
+        <center>
+            <h1>Do You Need a Solution</h1>
+        </center>
+        <center>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque cum doloremque <br> temporibus?
+                Ullam
+                sequi repellendus tenetur eos earum eum excepturi libero tempore error autem</p>
+        </center>
+        <center><button>Read More</button></center>
+    </section>
+    <section class="women">
+        <div>
+           <center> <h1 style="font-size: 30px; font-weight: 900;">Industry leader in <br> consulting services</h1></center>
+           <center> <p>There are many variations of passages of Lorem Ipsum  available, but the majority have suffered alteration
+                in some  form, <br> by injected humour, or randomised words. Lorem  ipsum dolor sit amet, consectetur
+                adipisicing elit. Eius  eligendi fugiat!</p></center>
+        </div>
+        <div>
+            <center><img src="./img-woman-1-removebg-preview.png" alt="" width="500px"></center>
+        </div>
+    </section>
+    <footer>
+        <div>
+           <center> MAXI <br>
+            &copy; All Right Reserved</center>
+        </div>
+        <div>
+           <center>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+           </center>
+        </div>
+    </footer>
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+        function hideMenu() {
+            navlinks.style.right = "-500px"
+        }
+    </script>
+</body>
+
+</html>

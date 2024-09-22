@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#">
+                <h1 style="color: blue;">MAXI</h1>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="hero1">
+        <div id="hero1">
+            <h1 style="font-size: 60px; font-weight: 900;">About Us</h1>
+            <p style="font-size: 30px; font-weight: 900;">Aspernatur at enim excepturi</p>
+            <button class="btn1">READ MORE</button>
+        </div>
+    </section>
+    <section class="hero2">
+        <div class="one">
+            <h1 style="color: blue; font-weight: 900;">About Us</h1>
+            <h1 style="font-weight: 900;">We are a Industry Leader in <br> technical and consulting <br> services</h1>
+            <p style="margin-top: 10px;">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration
+                in some form, by injected humour, or randomised words. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Eius eligendi fugiat labore libero molestias provident quae quaerat quis! Aspernatur
+                at enim excepturi facere in non reiciendis soluta totam, voluptas voluptate!</p>
+        </div>
+        <div class="img">
+            <img src="./img-woman-1-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <hr style="margin-top: 30px;">
+
+    <section class="hero3">
+        <div class="img2">
+            <img src="./vision.png" alt="" width="250px">
+        </div>
+        <div>
+            <div>
+                <h1>Mission</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered
+                    alteration in some form</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h1>Vision</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered
+                    alteration in some form</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h1>Values</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered
+                    alteration in some form</p>
+            </div>
+        </div>
+    </section>
+    <hr style="margin-top: 30px;">
+    <section class="hero4">
+        <center>
+            <h1 style="font-size: 30px; font-weight: 900;">Our Team</h1>
+        </center>
+        <center>
+            <p style="font-size: 20px; font-weight: 900;">We are ready to grow with your business.</p>
+        </center>
+        <div class="container">
+            <div class="ceo">
+                <img src="./img1.jpg" alt="" width="250px">
+                <h1>James Rally</h1>
+                <p style="color: blue;">CEO</p>
+            </div>
+            <div class="ceo">
+                <img src="./img2.jpg" alt="" width="250px">
+                <h1>Kristen Viller</h1>
+                <p style="color: blue;">TECH DIRECTOR</p>
+            </div>
+            <div class="ceo">
+                <img src="./img3.jpg" alt="" width="250px">
+                <h1> Johanna Care</h1>
+                <p style="color: blue;">HR DIRECTOR</p>
+            </div>
+            <div class="ceo">
+                <img src="./img4.jpg" alt="" width="250px">
+                <h1>Bruce Willamson</h1>
+                <p style="color: blue;">FINANCE DIRECTOR</p>
+            </div>
+        </div>
+    </section>
+    <section class="hero5">
+        <center>
+            <h1 style="font-size: 30px; font-weight:900 ;">
+                Get Our Best Solution
+            </h1>
+        </center>
+        <center>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod dolor <br> sit amet, consectetur
+                adipiscing elit, sed do eiusmod</p>
+        </center>
+        <center><button>Read the Story</button></center>
+    </section>
+    <footer>
+        <div>
+           <center> MAXI <br>
+            &copy; All Right Reserved</center>
+        </div>
+        <div>
+           <center>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+           </center>
+        </div>
+    </footer>
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+        function hideMenu() {
+            navlinks.style.right = "-500px"
+        }
+    </script>
+</body>
+
+</html>

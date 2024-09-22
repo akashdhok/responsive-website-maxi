@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="services.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#">
+                <h1 style="color: blue;">MAXI</h1>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="hero1">
+        <div id="hero1">
+            <h1 style="font-size: 60px; font-weight: 900;">Our Services</h1>
+            <p style="font-size: 30px; font-weight: 900;">Aspernatur at enim excepturi</p>
+            <button class="btn1">READ MORE</button>
+        </div>
+    </section>
+    <section class="hero2">
+        <div>
+            <h1 style="color: blue; font-weight: 900;">Our Services</h1>
+            <h1 style="font-weight: 900;">Find the best services and <br> consulting for affordable <br> deals</h1>
+            <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered
+                alteration
+                in some <br> form, by injected humour, or randomised words. Lorem <br> ipsum dolor sit amet, consectetur
+                adipisicing elit. Eius <br> eligendi fugiat labore libero molestias provident quae <br> quaerat quis!
+            </p>
+        </div>
+        <div class="img">
+            <img src="./services/business-1.jpg" alt="" width="450px">
+        </div>
+    </section>
+    <section class="hero3">
+        <center>
+            <h1 style="color: blue; font-weight: 900;">Our Products</h1>
+        </center>
+        <center>
+            <p style="font-weight: 900;">Eius eligendi fugiat labore libero molestias provident quae quaerat quis!</p>
+        </center>
+        <div class="grid">
+            <article>
+                <h1 style="color: blue; font-weight: 900;">Excellent Features</h1>
+                <p>Achieve virtually any look and layout design <br> within one UI Kit solution.</p>
+            </article>
+            <article>
+                <h1 style="color: blue; font-weight: 900;">Powerful API</h1>
+                <p>We strive to figure out ways to help your <br> audience grow through all platforms.</p>
+            </article>
+            <article>
+                <h1 style="color: blue; font-weight: 900;">Blockchain Based</h1>
+                <p>Find what you need in one template and <br> combine features at will.</p>
+            </article>
+            <article>
+                <h1 style="color: blue; font-weight: 900; margin-top: 20px;">VueJS Included</h1>
+                <p>There are many variations of passages of <br> Lorem Ipsum available, but the majority have <br>
+                    suffered alteration in some form</p>
+            </article>
+            <article>
+                <h1 style="color: blue; font-weight: 900; margin-top: 20px;">React Powered</h1>
+                <p>There are many variations of passages of <br> Lorem Ipsum available, but the majority have <br>
+                    suffered alteration in some form</p>
+            </article>
+            <article>
+                <h1 style="color: blue; font-weight: 900; margin-top: 20px;">Angular Compatible</h1>
+                <p>There are many variations of passages of <br> Lorem Ipsum available, but the majority have <br>
+                    suffered alteration in some form</p>
+            </article>
+        </div>
+    </section>
+    <section class="hero4">
+       <h1>Best Deals | </h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, perspiciatis?</p>
+       <button>Grab a Deal</button>
+    </section>
+    <section>
+        <h1 style="color: blue; font-weight: 900; margin-top: 50px; text-align: center; font-size: 30px;" >Best Awarded</h1>
+        <p style="text-align: center; font-size: 20px;" >There are many variations of passages of Lorem Ipsum available, but  <br> majority have suffered alteration in some form</p>
+    </section>
+    <section class="hero5">
+        <div>
+        <h1 style="font-size: 30px;">There are many variations <br>  of  passages of Lorem Ipsum  <br> available.</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some <br> form</p>
+        </div>
+        <div>
+            <img src="./services/business-4.jpg" alt="" width="350px">
+        </div>
+    </section>
+    <footer>
+        <div>
+           <center> MAXI <br>
+            &copy; All Right Reserved</center>
+        </div>
+        <div>
+           <center>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+           </center>
+        </div>
+    </footer>
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+        function hideMenu() {
+            navlinks.style.right = "-500px"
+        }
+    </script>
+</body>
+
+</html>
